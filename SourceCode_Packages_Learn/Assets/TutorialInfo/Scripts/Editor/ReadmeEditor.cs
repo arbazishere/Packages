@@ -12,7 +12,7 @@ public class ReadmeEditor : Editor
 {
     static string s_ShowedReadmeSessionStateName = "ReadmeEditor.showedReadme";
     
-    static string s_ReadmeSourceDirectory = "Assets/TutorialInfo";
+    static string s_ReadmeSourceDirectory = "Assets/Quiz/TutorialInfo";
 
     const float k_Space = 16f;
 
@@ -148,10 +148,10 @@ public class ReadmeEditor : Editor
             GUILayout.Space(k_Space);
         }
 
-        if (GUILayout.Button("Remove Readme Assets", ButtonStyle))
-        {
-            RemoveTutorial();
-        }
+        //if (GUILayout.Button("Remove Readme Assets", ButtonStyle))
+        //{
+        //    RemoveTutorial();
+        //}
     }
 
     bool m_Initialized;

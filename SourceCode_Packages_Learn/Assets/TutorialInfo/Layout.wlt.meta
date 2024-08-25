@@ -6,3 +6,10 @@ DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268492
+  packageName: QuizU - A UI toolkit sample
+  packageVersion: 1.1.0
+  assetPath: Assets/TutorialInfo/Layout.wlt
+  uploadId: 630859

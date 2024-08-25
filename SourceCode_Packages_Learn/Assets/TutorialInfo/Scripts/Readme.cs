@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
+
 public class Readme : ScriptableObject
 {
     public Texture2D icon;
@@ -11,6 +12,10 @@ public class Readme : ScriptableObject
     [Serializable]
     public class Section
     {
-        public string heading, text, linkText, url;
+        public string heading;
+        public string text;
+        public string linkText;
+        public string url;
     }
+
 }
